@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": ".venv/bin/python",
+    "cSpell.words": [
+        "onupdate",
+        "werkzeug"
+   ],
+   "python.formatting.provider": "autopep8"
+}

@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+watchdog = "*"
+
+[packages]
+flask = "*"
+alembic = "*"
+flask-marshmallow = "*"
+flask-migrate = "*"
+marshmallow-sqlalchemy = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+flask-cors = "*"
+flask-security = "*"
+flask-sqlalchemy = "*"
+flask-jwt-extended = {extras = ["asymmetric_crypto"],version = "*"}
+simplejson = "*"
+bcrypt = "*"
+
+[requires]
+python_version = "3.7"

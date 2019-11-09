@@ -1,0 +1,18 @@
+image: python
+
+ports:
+  - port: 5000
+    onOpen: open-browser
+
+tasks:
+  - init: pip3 install pipenv autopep8 && pipenv install
+    command: pipenv run flask run --host 0.0.0.0
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode@2.3.0:1F0Pvb/ORZ/T+b60LIMs8w==
+    - christian-kohler.path-intellisense@1.4.2:QnOrf5fk6KiVaQs4cNEP+w==
+    - VisualStudioExptTeam.vscodeintellicode@1.2.0:ZVy7XFOZUd4m0FZb3PUFbA==
+    - CoenraadS.bracket-pair-colorizer@1.0.61:fqPT1sJEqaEdrfXeYbdW+A==
+    - magicstack.MagicPython@1.1.0:j4FYz9tfFt//ke3wUcL3VQ==
+    - ms-python.python@2019.10.44104:fKYRb8X8FA37fMd+hgvv2A==

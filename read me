@@ -1,0 +1,11 @@
+libpq-dev
+
+flask db init
+
+flask db migrate --message <message>  --Add to version history
+
+flask db upgrade   -- Add to database
+
+flask db upgrade heads
+
+release:  flask db upgrade && python3 $PWD/api/inserts.py
